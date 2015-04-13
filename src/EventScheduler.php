@@ -1,6 +1,7 @@
 <?php namespace App;
 
 use App\Repositories\Events\EventsRepository;
+use App\Models\Event;
 
 /**
  * This class just handles events... 

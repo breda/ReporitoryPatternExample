@@ -1,5 +1,7 @@
 <?php namespace App\DataPersisters;
 
+use App\Models\Event;
+
 class InMemoryDataPersister implements DataPersister
 {
 

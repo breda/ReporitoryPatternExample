@@ -1,6 +1,7 @@
 <?php namespace App\Repositories\Events;
 
-use App\DataPersisters\MySQLDataPersister;
+use App\DataPersisters\DataPersister;
+use App\Models\Event;
 
 class MySQLEventsRepository implements EventsRepository {
   

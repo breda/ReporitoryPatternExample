@@ -1,5 +1,8 @@
 <?php namespace App\Repositories\Events;
 
+use App\DataPersisters\DataPersister;
+use App\Models\Event;
+
 class MongoEventsRepository implements EventsRepository {
 
   /**
